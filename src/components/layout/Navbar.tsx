@@ -8,12 +8,12 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Skills', path: '/skills' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Experience', path: '/experience' },
-    { name: 'Contact', path: '/contact' }
+    { name: 'Home', path: '/saille-portfolio/' },
+    { name: 'About', path: '/saille-portfolio/about' },
+    { name: 'Skills', path: '/saille-portfolio/skills' },
+    { name: 'Projects', path: '/saille-portfolio/projects' },
+    { name: 'Experience', path: '/saille-portfolio/experience' },
+    { name: 'Contact', path: '/saille-portfolio/contact' }
   ];
 
   useEffect(() => {
@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <Link to="/" className="text-accent font-bold text-2xl">
+            <Link to="/saille-portfolio/" className="text-accent font-bold text-2xl">
               <div className="flex flex-col items-start leading-tight">
                 <span className="text-text-light">Ilyass</span>
                 <span className="ml-7">Atide</span>
@@ -70,7 +70,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="../../resources/resume.pdf"
+              href="../../saille-portfolio/resources/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 border border-accent text-accent rounded hover:bg-accent/10 transition-all duration-300 text-base"  // Changed from text-sm
@@ -128,7 +128,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="../..//resources/resume.pdf"
+            href="../../saille-portfolio/resources/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 px-6 py-2 border border-accent text-accent rounded hover:bg-accent/10 transition-all duration-300 text-xl"  // Changed from text-lg

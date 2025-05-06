@@ -30,7 +30,7 @@ const AboutPreview = () => {
           </p>
           
           <Link 
-            to="/about" 
+            to="/saille-portfolio/about" 
             className="text-accent font-medium hover:underline inline-flex items-center transition-all duration-300"
           >
             Learn more about me
@@ -44,7 +44,7 @@ const AboutPreview = () => {
           <div className="relative group">
             <div className="relative rounded-md overflow-hidden border-2 border-accent z-10">
               <img 
-                src="../../resources/personal-picture.jpeg" 
+                src="../../saille-portfolio/resources/personal-picture.jpeg" 
                 alt="Ilyass Atide" 
                 className="w-full grayscale hover:grayscale-0 transition-all duration-500"
               />

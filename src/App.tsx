@@ -15,12 +15,12 @@ function App() {
       <ScrollToTop /> {/* 2. Place the ScrollToTop component here */}
       <Layout>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/skills" element={<SkillsPage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/experience" element={<ExperiencePage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/saille-portfolio/" element={<HomePage />} />
+          <Route path="/saille-portfolio/about" element={<AboutPage />} />
+          <Route path="/saille-portfolio/skills" element={<SkillsPage />} />
+          <Route path="/saille-portfolio/projects" element={<ProjectsPage />} />
+          <Route path="/saille-portfolio/experience" element={<ExperiencePage />} />
+          <Route path="/saille-portfolio/contact" element={<ContactPage />} />
         </Routes>
       </Layout>
     </Router>
