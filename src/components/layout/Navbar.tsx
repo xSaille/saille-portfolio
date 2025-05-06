@@ -70,7 +70,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="../../saille-portfolio/resources/resume.pdf"
+              href="/resources/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 border border-accent text-accent rounded hover:bg-accent/10 transition-all duration-300 text-base"  // Changed from text-sm
@@ -128,7 +128,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="../../saille-portfolio/resources/resume.pdf"
+            href="/resources/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 px-6 py-2 border border-accent text-accent rounded hover:bg-accent/10 transition-all duration-300 text-xl"  // Changed from text-lg
